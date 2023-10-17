@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  /* all: unset; */
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  
+  
+}
+
+button:hover{
+  background: rgb(145, 229, 117);
+}
+
+
+img{
+  height: 50px;
+  width: 70px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+.food{
+  height: 400px;
+  width: 400px;
+}
+
+.hero-content{
+  align-items: center;
+  margin-left: 50px;
+  width: 800px;
+}
+
+h3{
+  font-size: 400px;
+}
+
+.hero-btn{
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.order{
+  background-color: rgb(247, 43, 43);
+  border: rgb(214, 238, 127);
+}
+
+.order:hover{
+  background-color: rgb(238, 11, 11);
+}
+
+.contact{
+  background-color:rgba(142, 130, 130, 0.829);
+  border: gray;
+}
+
+.contact:hover{
+  background-color: rgba(66, 64, 62, 0.984);
+}
+  
+.hero-image{
+  width: 400px;
+}
